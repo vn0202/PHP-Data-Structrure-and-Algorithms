@@ -22,7 +22,7 @@ function print_array($array)
         echo $val . " ";
     }
 }
-function partition($array, $low, $hight)
+function partition(&$array, $low, $hight)
 {
     $pivot = $array[$hight];
     $left = $low;
@@ -48,7 +48,7 @@ function quick_sort(&$array, $low,$hight)// low, hight la chi so cua phan tu dau
         quick_sort($array,$pi + 1, $hight);
     }
 }
-$array = [12,32,9,21,3,16,21];
-quick_sort($array,0,6);
+$array = [100, 1046, 50, 40, 20, 10];
+quick_sort($array,0,5);
 print_array($array);
 ?>
