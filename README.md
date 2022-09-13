@@ -72,7 +72,7 @@ Chỉ có thể thêm phần tử ở một đầu và lấy phần tử ở đ�
 ## Thuật toán: 
 
 **Khái niệm** Thuật toán là một tập hợp hữu hạn các chỉ thị để thực thi theo một thứ tự 
-nào đó để thu được kết quả mong muốn. Giải thuật độc lập với các ngôn ngữ lập trình. 
+nào đó để thu được kết quả mong muốn. Giải thuật độc lập với các ngôn ngữ lập trình.   
 **Đặc điểm của 1 giải thuật**
 - Tính xác định: Một giải thuật nên rõ ràng. Mỗi bước nên rõ ràng và chỉ mang 1 mục đích nhất định 
 - Dữ liệu đầu vào xác định: Giải thuật nên có 0 hay nhiều hơn 1 đầu vào xác định 
@@ -123,5 +123,4 @@ pivot.
 Thuật toán sẽ chọn 1 phần tử trong mảng là làm pivot ( điểm đánh dấu). Mấu chốt chính của thuật toán là phân đoạn (hàm partition ): Chọn pivot và sắp xếp vào đúng vị trí trong mảng, 
 chuyển tất cả các phần tử nhỏ hơn pivot sang bên trái pivot và chuyển tất cả các phần tử lớn hơn pivot sang bên phải pivot. Khi đó ta có hai mảng con bên trái pivot và bên phải pivot. Tiếp tục phân đoạn cho hai mảng con đó.   
 
-
-![hackrank](./hackrank.png)
+   
