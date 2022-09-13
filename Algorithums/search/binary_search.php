@@ -54,5 +54,5 @@ function binary_search_2($array, $left, $right, $search)
     return -1;
 }
 $array = [12,23,34,45,56,100];
-$result = binary_search_2($array,0, count($array), 100);
+$result = binary_search_2($array,0, count($array)-1, 100);
 echo $result;
