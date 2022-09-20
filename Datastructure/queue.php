@@ -1,7 +1,7 @@
 <?php
 // ====================== HANG DOI =====================
-
-class Queue {
+ include './interfaces/QueueInteface.php';
+class Queue implements QueueInteface {
     public $front;
     public $rear;
     private $queue=[];

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4543f3dc-7b88-4a4c-84ed-d4902f5e9ec2" name="Changes" comment="" />
+    <list default="true" id="4543f3dc-7b88-4a4c-84ed-d4902f5e9ec2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithums/search/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithums/sort/quick_sort.php" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithums/sort/quick_sort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1662907645526</updated>
       <workItem from="1662907646819" duration="2531000" />
-      <workItem from="1663030062647" duration="22318000" />
+      <workItem from="1663030062647" duration="30017000" />
+      <workItem from="1663077403412" duration="5780000" />
+      <workItem from="1663118023562" duration="1567000" />
+      <workItem from="1663223182088" duration="624000" />
+      <workItem from="1663655437511" duration="2547000" />
     </task>
     <servers />
   </component>
@@ -97,20 +106,6 @@
           <url>file://$PROJECT_DIR$/Algorithums/sort/buble_sort.php</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/Algorithums/search/test.php</url>
-          <line>170</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/Algorithums/search/test.php</url>
-          <line>7</line>
-          <properties>
-            <option name="className" value="" />
-            <option name="methodName" value="\print_array" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

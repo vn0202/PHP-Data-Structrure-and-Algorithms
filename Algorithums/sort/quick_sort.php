@@ -51,4 +51,6 @@ function quick_sort(&$array, $low,$hight)// low, hight la chi so cua phan tu dau
 $array = [100, 1046, 50, 40, 20, 10];
 quick_sort($array,0,5);
 print_array($array);
+
+
 ?>

@@ -1,7 +1,7 @@
 <?php
 //====================== STACK ==================
-
-class Stack {
+include "./interfaces/StackInterface.php";
+class Stack implements  StackInterface {
     public  $top = -1;
     private $stack =[];
     public  function  __construct()
@@ -37,8 +37,7 @@ class Stack {
         {
             echo "Stack is empty";
         }
-        $val = $this->stack[$this->top];
-        return $val;
+        return  $this->stack[$this->top];
     }
 public  function size()
 {
